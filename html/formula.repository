@@ -1,0 +1,13 @@
+\form#0:$ \displaystyle\sum_{i=1}^{10} t_i $
+\form#1:\[ SD = \sqrt{\frac{\displaystyle\sum_{i=1}^{10} t_i}{a}} \]
+\form#2:\[ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} \abs{a[i]}}{a}} \]
+\form#3:\[ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} \abs{1}}{a}} \]
+\form#4:\[ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} | a[i] |}{a}} \]
+\form#5:\[ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} | a[i] - \mu |}{n}} \]
+\form#6:$ \mu $
+\form#7:$ { a[1] - \mu }^2 = (5-2)^2 = 9 $
+\form#8:\[ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} | a[i] - \mu |^2 }{n}} \]
+\form#9:$ (a[1] - \mu)^2 = (5-2)^2 = 9 $
+\form#10:$ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} | a[i] - \mu |^2 }{n}} $
+\form#11:$ \caption{A simple table} $
+\form#12:$ \caption {A simple table} $
