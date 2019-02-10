@@ -5,7 +5,6 @@
 #include <cmath>
 
 /**
- *  \fn double deviation( double* a, int n )
  *  \brief This function calculates the standard deviation of an array.
  *
  *
@@ -24,12 +23,12 @@
  *  4. Find them mean of step 3 using n as the base
  *  5. Take the square of step 4
  *
- *  \param[in] a A pointer to an array of type double.
+ *  \param[in] a A pointer to an array of type int.
  *  \param[in] n The total number of elements in array a.
  *  \return Returns the standard deviation of the array a as type double.
  *
  */
-double deviation( double* a, int n )
+double deviation( int* a, int n )
 {
 	// Initial Check: verify n >= 0
 	if (n <= 0){
