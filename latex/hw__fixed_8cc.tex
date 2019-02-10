@@ -1,0 +1,52 @@
+\hypertarget{hw__fixed_8cc}{}\section{src/hw\+\_\+fixed.cc File Reference}
+\label{hw__fixed_8cc}\index{src/hw\_fixed.cc@{src/hw\_fixed.cc}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{hw__fixed_8cc_a9cfdbe00bb990c14c3a9e59a7dbbc974}{deviation}} (int $\ast$a, int n)
+\begin{DoxyCompactList}\small\item\em This function calculates the standard deviation of an array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{hw__fixed_8cc_a9cfdbe00bb990c14c3a9e59a7dbbc974}\label{hw__fixed_8cc_a9cfdbe00bb990c14c3a9e59a7dbbc974}} 
+\index{hw\_fixed.cc@{hw\_fixed.cc}!deviation@{deviation}}
+\index{deviation@{deviation}!hw\_fixed.cc@{hw\_fixed.cc}}
+\subsubsection{\texorpdfstring{deviation()}{deviation()}}
+{\footnotesize\ttfamily double deviation (\begin{DoxyParamCaption}\item[{int $\ast$}]{a,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+This function calculates the standard deviation of an array. 
+
+\hypertarget{main__broken_8cpp_autotoc_md0}{}\subsection{How this function calculates standard deviation}\label{main__broken_8cpp_autotoc_md0}
+Standard Deviation Equation
+
+$ SD = \sqrt{\frac{\displaystyle\sum_{i=0}^{n} | a[i] - \mu |^2 }{n}} $
+
+
+\begin{DoxyEnumerate}
+\item Find the mean (mean = $ \mu $) of all elements in array a using n as the base
+\item For each member in a, find the square of its difference from the mean (example below).
+\begin{DoxyItemize}
+\item $ \mu $ = 2
+\item a\mbox{[}1\mbox{]} = 5
+\item Equation\+: $ (a[1] - \mu)^2 = (5-2)^2 = 9 $
+\end{DoxyItemize}
+\item Sum all the values from step 2
+\item Find them mean of step 3 using n as the base
+\item Take the square of step 4
+\end{DoxyEnumerate}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & A pointer to an array of type int. \\
+\hline
+\mbox{\texttt{ in}}  & {\em n} & The total number of elements in array a. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the standard deviation of the array a as type double. 
+\end{DoxyReturn}
