@@ -4,6 +4,7 @@ lib/
 
 # Extra Doxygen Files
 config.log
+config
 mainpage.dox
 
 # Makefile
