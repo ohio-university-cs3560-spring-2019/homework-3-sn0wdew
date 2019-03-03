@@ -18,3 +18,7 @@ latex/**
 
 # doxygen config
 doxyconfig.conf
+
+# Homework 7 mainfile and a.out
+hw7/a.out
+hw7/main.cc
