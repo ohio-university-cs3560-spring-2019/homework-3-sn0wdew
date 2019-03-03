@@ -1,4 +1,9 @@
-// Function Definition
+/**
+ *  Author: Michael Snider
+ *  Date: 3/3/2019
+ *  Program: stddev.cc
+ */
+
 #include "stddev.h"
 #include <iostream>
 #include <vector>
